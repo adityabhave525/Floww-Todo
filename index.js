@@ -4,6 +4,8 @@ const dotenv = require("dotenv");
 
 const { connectToMongoDB } = require("./config/db");
 
+const authRoutes = require('./routes');
+
 dotenv.config();
 
 const app = express();
